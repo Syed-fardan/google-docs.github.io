@@ -1,3 +1,34 @@
+In this application i had used 4 components 
+
+Login 
+In login Component used firebase authentication to login by google provider which needs to install firebase dependices so that user can login  Google docs clone 
+
+Home 
+In Home Document there is user Input so that user can add documents 
+
+The user documents are stored using firestore database 
+
+and Inbuild docs method to get data 
+
+Editing 
+used react quill which rich text Editor to edit Text document again used rich firestore to edit document data 
+
+Side bar 
+used react side bar and Google icons so that user navigate to particular updates 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
