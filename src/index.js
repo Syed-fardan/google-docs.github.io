@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import { initializeApp } from "firebase/app";
 import {getFirestore} from 'firebase/firestore'
+import { ProSidebarProvider } from 'react-pro-sidebar';
 const firebaseConfig = {
   apiKey: "AIzaSyDW6C5gHNyhXuB0Q0YobWlNFDVvqky5eD8",
   authDomain: "docs-a7303.firebaseapp.com",
@@ -21,7 +22,8 @@ export const database = getFirestore(initializeApp(firebaseConfig));
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <App />
+  <ProSidebarProvider><App /></ProSidebarProvider>
+   
   </BrowserRouter>
 );
 

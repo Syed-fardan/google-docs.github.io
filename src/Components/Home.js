@@ -8,6 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 //import { collection } from 'firebase/firestore';
 //import {collection} from 'firebase/firestore'
+
 const Home = (props) => {
   //console.log(props);
   let auth = getAuth();
@@ -70,6 +71,7 @@ const Home = (props) => {
   return (
     <div>
       <ToastContainer />
+      
       <Button
         onClick={() => {
           setIsAdd((prev) => !prev);

@@ -2,6 +2,30 @@
 .App {
   text-align: center;
   font-family: "Roboto";
+  margin: auto;
+  padding: 10px;
+  margin-top: unset;
+}
+.app-render{
+  display: flex;
+}
+.sidebar-setup{
+  display: flex;
+  height: 100vh;
+  padding: 20px;
+}
+img{
+  height: 2em;
+  width: 2em;
+  padding: 3px;
+  
+}
+.google-icon{
+  display: flex;
+}
+.icon-name{
+  padding-top: 9px;
+  padding-left: 40px;
 }
 .google-button {
   display: flex;
@@ -11,7 +35,7 @@
   width: 100px;
   height: 40px;
   border: none;
-  background-color: #212121;
+  background-color: #2196f3;
   color: white;
   cursor: pointer;
 }
@@ -50,7 +74,7 @@
 }
 .grid-child{
   padding: 50px;
-  
+  background-color: rgb(249, 249, 249, 0.7);
   border: 1px solid #9e9e9e;
 
 }
@@ -60,12 +84,12 @@
 }
 .logOut-button1{
   top: 10px;
-  left: 10px;
+  right: 10px;
   position: absolute;
   width: 100px;
   height: 40px;
   border: none;
-  background-color: #212121;
+  background-color: #2196f3;
   color: white;
   cursor: pointer;
 }
@@ -85,6 +109,7 @@
   -moz-box-shadow: 0px -2px 5px 2px rgba(181, 181, 181, 0.75);
   padding: 20px;
   height: 750px;
+  background-color: rgb(249, 249, 249, 0.7);
 }
 
 .ql-container.ql-snow {
